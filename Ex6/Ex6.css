@@ -1,0 +1,38 @@
+*{
+    
+    margin: 0px;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    display:flex;
+    background-color: rgb(213, 231, 225);
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content:space-around;
+    border-top:10px solid rgb(172, 164, 164) ;
+}
+.first-row,.second-row,.third-row {
+    
+    width:100%;
+    height:30%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+.image-box{
+
+width:240px;
+height:180px;  
+border: 4px solid black;
+box-shadow:5px 10px 8px rgba(110, 104, 104, 0.533);
+}
+img{
+width:240px;
+height:180px; 
+
+}
+
